@@ -24,6 +24,8 @@ module.exports = async (env, options) => {
     },
     output: {
       clean: true,
+      path: path.resolve(__dirname, "dist"), // Ensure output goes to the dist folder
+      filename: "[name].js", // Maintain the naming convention for JS files
     },
     resolve: {
       extensions: [".html", ".js"],
@@ -52,33 +54,41 @@ module.exports = async (env, options) => {
       ],
     },
     plugins: [
+      // Generate taskpane.html
       new HtmlWebpackPlugin({
         filename: "taskpane.html",
         template: "./src/taskpane/taskpane.html",
         chunks: ["polyfill", "taskpane"],
       }),
-      new CopyWebpackPlugin({
-        patterns: [
-          {
-            from: path.resolve(__dirname, "src/templates"),
-            to: "templates", 
-          },
-        ],
-      }),
+
+      // Generate commands.html
       new HtmlWebpackPlugin({
         filename: "commands.html",
         template: "./src/commands/commands.html",
         chunks: ["polyfill", "commands"],
       }),
+
+      // Generate index.html in dist
+      new HtmlWebpackPlugin({
+        filename: "index.html",  // This will create index.html in the dist folder
+        template: "./src/taskpane/taskpane.html",  // You can use the same template or modify for index.html
+        chunks: ["polyfill", "taskpane"],  // Include the necessary chunks
+      }),
+
+      // Copy templates and assets to dist
       new CopyWebpackPlugin({
         patterns: [
+          {
+            from: path.resolve(__dirname, "src/templates"),
+            to: "templates", // Copy templates to dist/templates
+          },
           {
             from: "assets/*",
             to: "assets/[name][ext][query]",
           },
           {
             from: "manifest*.xml",
-            to: "[name]" + "[ext]",
+            to: "[name][ext]",
             transform(content) {
               if (dev) {
                 return content;
@@ -92,7 +102,7 @@ module.exports = async (env, options) => {
     ],
     devServer: {
       headers: {
-        "Access-Control-Allow-Origin": "*", 
+        "Access-Control-Allow-Origin": "*",
       },
       server: {
         type: "https",
@@ -100,7 +110,7 @@ module.exports = async (env, options) => {
       },
       port: process.env.npm_package_config_dev_server_port || 3000,
       static: {
-        directory: path.join(__dirname, "dist"), 
+        directory: path.join(__dirname, "dist"), // Serve from dist folder
         watch: true,
       },
     },
