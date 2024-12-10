@@ -1,0 +1,110 @@
+[
+  {
+    "template": "FV PPA šablonas.dotx",
+    "title": "PREKIŲ PRIĖMIMO – PERDAVIMO AKTAS (FORTEVENTO)",
+    "description": "Prekių priėmimo – perdavimo aktas, kai kliento PPA nėra pateiktas.",
+    "category": "Priėmimo-perdavimo dokumentai"
+  },
+  {
+    "template": "atostogų prašymo šablonas.dotx",
+    "title": "Atostogų prašymo šablonas",
+    "description": "Šablonas, kurį pateikiat darbdaviui, prašydami atostogų.",
+    "category": "Personalas"
+  },
+  {
+    "template": "Tėvadienio ar mamadienio šablonas.dotx",
+    "title": "Tėvadienio-mamadienio atostogų šablonas",
+    "description": "Šablonas, kurį pateikiat darbdaviui, prašydami tėvadienių-mamadienių.",
+    "category": "Personalas"
+  },
+  {
+    "template": "DD sutartis_Bendrosios salygos.dotx",
+    "title": "Diegimo darbų sutartis - bendrosios sąlygos",
+    "description": "Diegimo darbų bendrosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "DD sutartis_Specialiosios salygos.dotx",
+    "title": "Diegimo darbų sutartis - specialiosios sąlygos",
+    "description": "Diegimo darbų specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "DKP sutartis_Bendrosios salygos (ENG).dotx",
+    "title": "Debesų kompiuterijos paslaugų sutartis - bendrosios sąlygos (ENG)",
+    "description": "DKP sutartis - bendrosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "DKP sutartis_Bendrosios salygos.dotx",
+    "title": "Debesų kompiuterijos paslaugų sutartis - bendrosios sąlygos (LT)",
+    "description": "DKP sutartis - bendrosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "DKP sutartis_Specialiosios salygos.dotx",
+    "title": "Debesų kompiuterijos paslaugų sutartis - specialiosios sąlygos (LT)",
+    "description": "DKP sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "DKP sutartis_Specialiosios salygos(ENG).dotx",
+    "title": "Debesų kompiuterijos paslaugų sutartis - specialiosios sąlygos (ENG)",
+    "description": "DKP sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "FIRMINIS BLANKAS.dotx",
+    "title": "Fortevento firminis blankas",
+    "description": "Fortevento firminis blankas.",
+    "category": "Įmonės dokumentai"
+  },
+  {
+    "template": "Pasiūlymo šablonas.dotx",
+    "title": "Pasiūlymo šablonas",
+    "description": "Fortevento pasiūlymo šablonas.",
+    "category": "Pasiūlymai"
+  },
+  {
+    "template": "Pirkimo pardavimo sutartis_Bendrosios salygos.dotx",
+    "title": "Pirkimo-pardavimo sutartis - bendrosios sąlygos",
+    "description": "Pirkimo-pardavimo sutartis - bendrosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "Pirkimo pardavimo sutartis_Priemimo perdavimo akto forma.dotx",
+    "title": "Pirkimo-pardavimo sutartis - priėmimo-perdavimo akto forma",
+    "description": "Pirkimo-pardavimo sutartis - priėmimo-perdavimo akto forma.",
+    "category": "Priėmimo-perdavimo dokumentai"
+  },
+  {
+    "template": "Pirkimo pardavimo sutartis_Specialiosios salygos.dotx",
+    "title": "Pirkimo-pardavimo sutartis - specialiosios sąlygos",
+    "description": "Pirkimo-pardavimo sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "SW nuomos sutartis_menesine_Bendrosios salygos.dotx",
+    "title": "Programinės įrangos menesinė nuomos sutartis - bendrosios sąlygos",
+    "description": "Programinės įrangos menesinė nuomos sutartis - bendrosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "SW nuomos sutartis_menesine_Specialiosios salygos.dotx",
+    "title": "Programinės įrangos menesinė nuomos sutartis - specialiosios sąlygos",
+    "description": "Programinės įrangos menesinė nuomos sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "SW nuomos sutartis_metine_Bendroji salygos.dotx",
+    "title": "Programinės įrangos metinė nuomos sutartis - specialiosios sąlygos",
+    "description": "Programinės įrangos metinė nuomos sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  },
+  {
+    "template": "SW nuomos sutartis_metine_Specialiosios salygos.dotx",
+    "title": "Programinės įrangos metinė nuomos sutartis - specialiosios sąlygos",
+    "description": "Programinės įrangos metinė nuomos sutartis - specialiosios sąlygos.",
+    "category": "Sutartys"
+  }
+]
