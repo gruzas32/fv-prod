@@ -111,12 +111,12 @@
     "template": "Siūlomų specialistų sąrašas.dotx",
     "title": "Siūlomų specialistų sąrašas (FORTEVENTO)",
     "description": "Fortevento siūlomų specialistų sąrašo šablonas.",
-    "category": "Įmonės dokumentai"
+    "category": "Viešūjų pirkimų dokumentai"
   },
   {
     "template": "Suteiktų paslaugų sąrašas.dotx",
     "title": "Suteiktų paslaugų sąrašas (FORTEVENTO)",
     "description": "Fortevento suteiktų paslaugų sąrašo šablonas.",
-    "category": "Įmonės dokumentai"
+    "category": "Viešūjų pirkimų dokumentai"
   }
 ]
